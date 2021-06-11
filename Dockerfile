@@ -50,7 +50,7 @@ RUN apt-get install -y \
 #===============================================================================    
 
 RUN apt-get install gnupg2 -yqq \
-    && curl -sL https://deb.nodesource.com/setup_10.x | bash - \
+    && curl -sL https://deb.nodesource.com/setup_12.x | bash - \
     && apt-get install gcc g++ make -yqq \
     && apt-get install -y nodejs -yqq \
     && curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add - \
