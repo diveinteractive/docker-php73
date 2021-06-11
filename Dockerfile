@@ -23,7 +23,8 @@ RUN apt-get update -yqq \
     unixodbc-dev  libaspell-dev \
     libsnmp-dev libpcre3-dev libtidy-dev -yqq \
     # SQLite
-    sqlite3 libsqlite3-dev
+    sqlite3 libsqlite3-dev \
+    rsync
 
 #===============================================================================
 # Set up PHP
